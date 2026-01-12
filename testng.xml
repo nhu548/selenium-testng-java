@@ -2,6 +2,8 @@
 <suite name="Automation Suite">
     <listeners>
         <listener class-name="com.example.listeners.TestListener"/>
+        <!-- Listener cho Jenkins -->
+        <listener class-name="org.testng.reporters.XMLReporter"/>
     </listeners>
 
     <test name="Smoke Test">
